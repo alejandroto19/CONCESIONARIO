@@ -1,6 +1,4 @@
-
-import java.util.ArrayList;
-import java.util.List;
+package principal;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,8 +10,10 @@ import java.util.List;
  *
  * @author lenovo
  */
-public class Estadistica {
-    
-    List Factura = new ArrayList(){ };
-    
+public class Venta {
+    public int codigoVenta;
+    public int cantidad;
+    public int codigoVendedor;
+    public int valorTotal;
+    public int comision;
 }
